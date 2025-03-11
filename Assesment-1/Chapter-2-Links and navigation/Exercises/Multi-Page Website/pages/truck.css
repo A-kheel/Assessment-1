@@ -1,0 +1,48 @@
+<style>
+body {background-color#2a475e ;/*This is the style for the background */
+color: #c7d5e0 ;
+font-family: Arial, Helvetica, sans-serif; line-height: 500% ;}
+
+section { margin: 80px ; padding : 80px 30px;}
+
+/* This is the style for the navigation bar */
+.navbar ul{
+	list-style-type: none;
+	background-color: #23262E ;
+	padding: 0px ;
+	margin: 0px;
+	overflow: hidden;
+	color: #c7d5e0 ;
+	
+}
+.navbar a{
+	color: #c7d5e0 ;
+	
+	text-decoration: none;
+	padding:15px;
+	display: block;
+	text-align: center;
+}
+.navbar li a:hover{
+	background-color:  #23262E ;
+}
+.navbar li{
+	float: left;
+}
+ /* This is the style for the individual headings, paragraphs, and unordered lists using colors, gradients, and different fonts */
+
+h1{background-image: linear-gradient(to bottom right, #00BBFF ,  #000000) ;
+color: #c7d5e0 ; font-size: 300% ; line-height: 400%;
+text-align: center;
+font-family: Arial;}
+
+h2{background-image: linear-gradient(to bottom right, #00BBFF ,  #000000) ;
+color: #c7d5e0 ; text-align: center; line-height: 300%; font-size: 300% ;
+font-family: Arial ;}
+
+p{font-size: .90em; text-indent:3em; text-align: center; line-height: 500% ; 
+color:#c7d5e0 ; font-family: Helvetica; font-size: 150%;  background-color: #23262E ;}
+
+ul{color: #c7d5e0 ; background-color: #23262E ;text-align: center; line-height: 300% ; font-size: 150% ; font-family: Helvetica;}
+
+ol{color: #c7d5e0  ; font-size: 100%; text-align: center; line-height: 500% ; font-family: Arial;}
