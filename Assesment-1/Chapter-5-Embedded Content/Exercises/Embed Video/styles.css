@@ -1,0 +1,8 @@
+/*This is where the background is styled*/
+body {
+    margin-top: auto;
+    background-color: black;
+    color: aliceblue;
+    background-image: url("nike.jpg");
+    font-family: serif;
+}

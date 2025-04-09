@@ -1,0 +1,111 @@
+*{
+margin:0;
+padding: 0;
+}
+/*This is where the header is styled*/
+header {
+    background-color: #17072B;
+    padding: 30px;
+text-align: center;
+font-size: 60px;
+color: white;
+font-family: Tahoma;
+}
+/*This is where the navbar and the lists are styled*/
+nav{
+    background:  #17072B;
+    padding: 1rem;
+}
+nav ul {
+    font-size: 40px;
+    font-family: Tahoma;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+main {
+    font-family: Arial;
+    font-size: larger;
+    margin: 20px;
+    
+}
+/*This is where the images and the greeting note is styled*/
+img {
+    margin:20px;
+}
+main h1 {
+    margin:30px;
+    margin-left: auto;
+}
+main p {
+    margin:30px;
+    margin-left: auto;
+    font-size: 20px;
+}
+/*This is where the footer is styled*/
+footer {
+    text-align: center;
+    background: #8c15e9;
+    color: white;
+    font-family: Arial;
+    font-size: 20px;
+    padding: 10px;
+}
+/*This is where the side box is styled*/
+aside {
+    background-color: #172d67;
+    color:white;
+    font-family: Arial;
+    float:right;
+    width:20%; 
+    padding: 200px;
+    padding-top: 90px;
+    padding-bottom: 0px;
+    margin-top:15px; 
+    margin-right: 15px; 
+    margin-bottom: 0px;
+}
+aside h1 {
+    font-size: 50px;
+    text-align:left;
+    margin-left: -150px;
+    margin-top: -50px;
+}
+aside ul {
+    list-style-type: none;
+    font-size: 30px;
+    margin: 50px;
+    padding: 30px;
+    padding-right: 30px;
+    margin-left: -150px;
+    margin-top: -20px;
+}
+aside ul li {
+    margin-bottom: 15px;
+}
+/*This is where the side box images are styled*/
+.row {
+	display: flex;
+    margin-right: 10px;
+}
+
+.row img {
+    width: 70%;
+    height: 10%;
+	margin: 50px;
+    padding: 25px;
+    padding-right: 120px;
+    margin-left: -115px;
+    margin-top: -60px;
+}
